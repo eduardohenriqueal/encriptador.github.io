@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador Texto | Eduardo Henrique</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="./img/logoAlura.svg" alt="Logo Alura">
+    <nav class="menu">
+      <ul>
+        <li><a href="https://github.com/eduardohenriqueal" target="_blank"><img src="./img/icons8-github.svg" alt="logo github"></a></li>
+        <li><a href="https://www.linkedin.com/in/eduardo-henrique-developer" target="_blank"><img src="./img/icons8-linkedin.svg" alt="logo linkedin"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="input">
+      <div class="input-txt">
+        <textarea id="textoEntrada" placeholder="Digite seu texto"></textarea>
+        <div class="botoes">
+          <button id="encriptar" onclick="encriptar()">Encriptar</button>
+        </div>
+      </div>
+
+      <div class="saida-txt"><textarea id="textoSaida" placeholder="Seu texto sairá aqui"></textarea>
+        <div class="botoes">
+          <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

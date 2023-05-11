@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #111;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.header img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu li {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  margin-top: 20px;
+  gap: 60px;
+}
+
+textarea {
+  height: 350px;
+  width: 300px;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  background: transparent;
+  color: orange;
+}
+
+.botoes {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#encriptar,
+#desencriptar {
+  background: orange;
+  color: #111;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+}
+
+#encriptar:hover {
+  background: #ff8c00;
+  color: #fff;
+}
+
+#encriptar:active {
+  transform: scale(0.95);
+}
+
+#desencriptar:hover {
+  background: #ff8c00;
+  color: #fff;
+}
+
+#desencriptar:active {
+  transform: scale(0.95);
+}
+
+::placeholder {
+  color: orange;
+}
+
+.menu img {
+  display: inline-block;
+}
